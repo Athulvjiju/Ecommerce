@@ -1,70 +1,86 @@
+## Project Overview
+    This project is an E-commerce website model that allows users to browse and purchase products. It is built using React and Tailwind CSS.
+
+## Project Features
+    Product browsing: Users can browse products by category, brand, or search by name.
+    Product details: Users can view product details such as images, description, price, and reviews.
+    Shopping cart: Users can add products to their cart, view their cart, and adjust the quantity of each item.
+    Checkout: Users can checkout by providing their shipping and payment information.
+    Order history: Users can view their order history and the status of each order.
+
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Clone the app from Github
+    To clone the app from github :
+    git clone https://github.com/Athulvjiju/Ecommerce.git
 
-In the project directory, you can run:
+## After cloning the project
+    After the succesfull complition you have to install node_modules
+
+## Install node_modules
+    go  to project folder: cd emart
+    use this command: `npm install`
+
+## To run this programme
+
+    In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Runs the app in the development mode.\  
+    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    The page will reload when you make changes.\
+    You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## File Structure
 
-### `npm run build`
+    In 'src ' folder there are 2 folders, Components and Modules.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Components:
+    In components folder as we can see i used folder like structure for all sections.
+    All the ui components are located in this folder
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Modules:
+    In this modules i seperated all the function wised groups.
+    i.e category wised products
+        Home screen products
+        And all the 12 products.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    App.js
+    App.js is the main Route folder in the project.
+    I set all the Routes in app.js files    
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Used dependancies:
+ ReactJs
+    i Used reactJs for the development of the website.
+    using npx create-react-app emart
+API
+    The backend of the website is Fake store api (`https://fakestoreapi.com/`)    
+ Tailwind css : 
+    I used tailwind css for styling my components. using ,
+    ` npm  i  tailwind css`
+    Then made changes in the respective folder.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+react router dom
+    Used React Router to route to pages based on URL 
+    command :
+   ` npm install react-router-dom`    
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contribution Guidelines
+    To contribute to the project, follow these steps:
+     Fork the repository
+         Create a new branch: git checkout -b feature/your-feature-name
+         Make your changes and commit them: git commit -m 'Add your commit message here'
+         Push your changes to your forked repository: git push origin feature/your-feature-name
+         Submit a pull request to the main repository
 
-## Learn More
+## License
+    This project is licensed under the MIT License.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
