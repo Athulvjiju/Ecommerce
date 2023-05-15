@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <Link
-              to={"/home"}
+              to={"/"}
               className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
             >
               Home
