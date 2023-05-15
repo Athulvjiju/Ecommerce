@@ -1,3 +1,5 @@
+## Hosted Link
+    https://athulvjiju2.netlify.app/
 ## Project Overview
     This project is an E-commerce website model that allows users to browse and purchase products. It is built using React and Tailwind CSS.
 
